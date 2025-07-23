@@ -1,7 +1,8 @@
+@use '../setting/config';
 .contact-btn {
     width: 155px;
     height: 37px;
-    background: $btn-color;
+    background: config.$btn-color;
     color: #fff;
     border-radius: 10px;
     display: block;

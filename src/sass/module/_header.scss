@@ -1,3 +1,4 @@
+@use '../setting/config';
 .header {
     position:fixed;
     top: 0;
@@ -42,7 +43,7 @@
           margin-right: 45px;
 
           a {
-             color: $txt-color;
+             color: config.$txt-color;
           }
         }
         }
